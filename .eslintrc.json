@@ -1,7 +1,8 @@
 {
   "env": {
     "es6": true,
-    "jest": true
+    "jest": true,
+    "browser": true
   },
   "rules": {
     "prettier/prettier": "error"
@@ -22,5 +23,6 @@
   ],
   "globals": {
     "expect": true
-  }
+  },
+  "parser": "babel-eslint"
 }
