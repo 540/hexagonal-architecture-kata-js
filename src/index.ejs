@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Buscador de documentos</title>
+  <meta charset="utf-8q">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+<div class="container">
+  <h1>Buscador de documentos</h1>
+
+  <form id="buscador">
+    <fieldset>
+      <legend>Selecciona el autor y el estado</legend>
+
+      <div class="form-row">
+        <div class="col">
+          <div class="form-group">
+            <label for="autor">Autor:</label>
+            <select class="form-control" id="autor" name="autor">
+              <option value="">-- selecciona un autor --</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="form-group">
+            <label for="estado">Estado:</label>
+            <select class="form-control" id="estado" name="estado">
+              <option value="">-- selecciona el estado --</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+    <button id="boton-buscar" class="btn btn-primary">Buscar documentos</button>
+  </form>
+
+  <table id="resultados" class="table table-condensed table-hover table-striped">
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>Título</th>
+      <th>Estado</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</div>
+</body>
+</html>
