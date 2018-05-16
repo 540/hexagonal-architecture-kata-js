@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Buscados de cómics de Marvel</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="app.57bca59c4f75c2e40016.css" rel="stylesheet"></head>
+<body>
+<div class="container">
+  <h1>Buscador de cómics de Marvel</h1>
+
+  <p>Este buscador encontrará los cómics en los que aparezcan los dos personajes que selecciones en el formulario </p>
+
+  <form id="buscador">
+    <fieldset>
+      <legend>Selecciona una pareja de personajes</legend>
+
+      <div class="form-row">
+        <div class="col">
+          <div class="form-group">
+            <label for="personaje1">Personaje 1:</label>
+            <select class="form-control" id="personaje1" name="personaje1">
+              <option value="">-- selecciona un personaje --</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="form-group">
+            <label for="personaje2">Personaje 2:</label>
+            <select class="form-control" id="personaje2" name="personaje2">
+              <option value="">-- selecciona un personaje --</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+    <button id="boton-buscar" class="btn btn-primary">Buscar comics</button>
+  </form>
+
+  <table id="resultados" class="table table-condensed table-hover table-striped">
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>Título</th>
+      <th>Personajes</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</div>
+<script type="text/javascript" src="match-finder.57bca59c4f75c2e40016.js"></script></body>
+</html>
